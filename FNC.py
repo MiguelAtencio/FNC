@@ -116,7 +116,7 @@ def formaClausal(A):
     L = []
     i = 0
     while len(A) > 0:
-        if i > len(A):
+        if i >= len(A):
             L.append(Clausula(A))
             A = []
         else:
