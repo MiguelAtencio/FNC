@@ -65,7 +65,7 @@ def Clausula(C):
     while len(C) > 0:
         s = C[0]
         if s == "-":
-            L.append(s+c[1])
+            L.append(s+C[1])
             C = C[3:]
         else:
             L.append(s)
